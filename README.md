@@ -15,3 +15,5 @@
 <img src="https://user-images.githubusercontent.com/29811121/153923641-4c72da5e-0a3e-4ad9-8fa4-9a1cb0e7948d.png" alt="drawing" width="45%"/>
   
 </p>
+  
+[`Click here to get the APK`](https://drive.google.com/file/d/12JKzMeaN12bQN0GNXeZWSirhpD3OLgQA/view?usp=sharing)
