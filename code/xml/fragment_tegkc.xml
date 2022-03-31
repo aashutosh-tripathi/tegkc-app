@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TegkcFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="25dp"
+                android:alpha="0.8"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:elevation="15dp"
+                        android:src="@drawable/tegkc"
+                        app:civ_border_color="@color/pink"
+                        app:civ_border_width="5dp"
+                        app:civ_circle_background_color="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Technocrats Electric Go-Kart Championship"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+
+                        android:paddingBottom="20dp"
+                        android:text="Technocrats Electric Go-Kart Championship is a national student challenge with a mission of encrypting students with technical as well as practical knowledge of manufacturing and building up a go-kart. The mission is accomplished by the ambition of these st for dents to compete national level. These go-karting enthusiasts already have a lot of adrenaline and drawn on eyebrows in the last season of National Go-Kart Championship. So the last few words LETS GO KARTING…!"
+                        android:textColor="@color/white"
+                        app:fontFamily="@font/montserrat" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="25dp"
+                android:alpha="0.8"
+                app:cardBackgroundColor="@color/pink"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:elevation="15dp"
+                        android:src="@drawable/mision"
+                        app:civ_border_color="@color/blue"
+                        app:civ_border_width="5dp"
+                        app:civ_circle_background_color="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Mission"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="20dp"
+                        android:text="Our mission is to make go kart available to all those who are always eager to compete in a fair and competitive way. As many of the racers can’t show what they have got so we are also encouraging the racers as well as their teams to show up your intensity."
+                        android:textColor="@color/white"
+                        app:fontFamily="@font/montserrat" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="25dp"
+                android:alpha="0.8"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:elevation="15dp"
+                        android:src="@drawable/vision"
+                        app:civ_border_color="@color/pink"
+                        app:civ_border_width="5dp"
+                        app:civ_circle_background_color="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Vision"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="20dp"
+                        android:text="We as an organization are trying our level best to foster the ideas and skills of the students from engineering background. The purpose of backing these ideas and skilled hard work is to bring the ideas to value and figure out the optimum ways to utilize our sources to its best. Our organization is looking forward to cater to the different sections of society at different levels."
+                        android:textColor="@color/white"
+                        app:fontFamily="@font/montserrat" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="150dp"
+                android:alpha="0.8"
+                app:cardBackgroundColor="@color/pink"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:elevation="15dp"
+                        android:src="@drawable/org"
+                        app:civ_border_color="@color/blue"
+                        app:civ_border_width="5dp"
+                        app:civ_circle_background_color="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Organisation"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="20dp"
+                        android:text="TEGKC 2K19 is a competition initiated by SAE STUDENT COLLEGIATE CLUB OF TIT and S, BHOPAL, M.P to bring, to enhance better engineering approaches and practices in graduate and diploma students. The objective of the competition is to design and fabricate a Go-Kart. The challenge takes place in two stages; 1st is virtual Round and 2nd is dynamic Round. This competition consists of several tests and tasks, which are to be performed by the vehicle, successfully clearing each test, and task decides their existence in the competition. All the participating teams are free to exhibit their creativity with few restrictions mentioned in the rulebook. This design challenge provides a platform to teams for showcasing their creativity and engineering skills in comparison to the teams from other universities or institutions across the country. The vehicle and associated documentation must be researched, designed and fabricated by the team members without direct or indirect involvement of professional engineers, faculty or professionals in racing. Proof of manufacturing (photograph/video) can be asked to present at any time during the 5 event. Vehicles, which have been professionally fabricated, may be penalized heavily or even disqualified from the competition. The decision of the organizing committee in this regard will be final. With the automotive industry rapidly taking stride towards electric vehicles, TIT Science to everyone’s surprise comes up with TEGKC 2K19 which is the need of the hour. In the upcoming 5-10 years every vehicle being launched will be offering a hybrid or technologies like that. So TEGKC which always strives for the betterment of student community is launching TEGKC 2K19 which is the first of its kind."
+                        android:textAlignment="gravity"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        app:fontFamily="@font/montserrat"
+                        android:gravity="center" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
